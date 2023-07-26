@@ -1,10 +1,12 @@
 import React from "react"
 import Footer from "./Footer"
+import bgImg from "../assets/images/about-hero.png"
 
 export default function About(){
     return(
         <div className="about-page">
-                <img src="../assets/images/about-hero.png" alt="van-life" className="about-img"/>
+            
+                <img src={bgImg} alt="van-life" className="about-img"/>
                 <div className="about-page-details">
                     <h1 className="about-page-title">Don’t squeeze in a sedan when you could relax in a van.</h1>
                     <p>Our mission is to enliven your road trip with the perfect travel van rental.
