@@ -587,6 +587,33 @@ i[class*="van-type-"] {
   align-items: center;
   gap: 15px;
 }
+/***INCOME PAGE***/
+.income-page {
+  padding-inline: 30px;
+  padding-block: 4vw;
+}
+.income-page span {
+  text-decoration: underline;
+}
+.income-page-title {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.income-transaction-title {
+  display: flex;
+  justify-content: space-between;
+}
+.income-total-transaction {
+  margin: 30px 0px;
+}
+.income-transaction {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  background: #fff;
+  margin-top: 30px;
+  padding: 35px 30px;
+}
 /***FOOTER COMPONENT***/
 
 footer {
