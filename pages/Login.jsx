@@ -68,6 +68,7 @@ const Login = () => {
           {status === "submitting" ? "Logging in..." : "Log in"}
         </button>
       </form>
+      <p>Email:b@b.com - Password:p123 </p>
     </div>
   );
 };
